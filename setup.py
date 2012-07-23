@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from setuptools import setup, find_packages
 import os.path
 
@@ -16,4 +18,14 @@ setup(
         ],
     zip_safe=False,
     packages=find_packages('.'),
+    classifiers = [
+        'Development Status :: 6 - Mature',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: Apache Software License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Software Development :: Quality Assurance',
+        'Topic :: Software Development :: Testing',
+        ],
 )
