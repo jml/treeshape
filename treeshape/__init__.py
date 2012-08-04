@@ -16,4 +16,8 @@
 """treeshape"""
 
 __all__ = [
+    'FileTree',
     ]
+
+
+from ._fixtures import FileTree
