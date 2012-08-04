@@ -1,4 +1,14 @@
 
+0.2.0
+~~~~~
+
+Improvements
+------------
+
+* New fixture, ``FileTree`` to create file & directory structures with a
+  fixture.  (Jonathan Lange)
+
+
 0.1.0
 ~~~~~
 
