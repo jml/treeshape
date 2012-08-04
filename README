@@ -28,4 +28,3 @@ Will create a directory structure that looks like this::
     All of our input data
 
 This is particularly useful for tests that touch the disk.
-

@@ -17,7 +17,9 @@
 
 __all__ = [
     'FileTree',
+    'make_tree',
     ]
 
 
 from ._fixtures import FileTree
+from ._treeshape import make_tree
