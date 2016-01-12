@@ -4,7 +4,9 @@
 
 treeshape allows you to quickly make file and directory structures on disk.
 
-For example::
+For example:
+
+.. code:: python
 
     from treeshape import make_tree
 
@@ -27,7 +29,9 @@ Will create a directory structure that looks like this::
     $ cat data/input
     All of our input data
 
-This is particularly useful for tests that touch the disk. For example::
+This is particularly useful for tests that touch the disk. For example:
+
+.. code:: python
 
     from testtools import TestCase
     from testtools.matchers import DirExists, FileContains, FileExists
@@ -47,7 +51,9 @@ This is particularly useful for tests that touch the disk. For example::
             self.assertThat(os.path.join(tree.path, 'logs'), DirExists())
             self.assertThat(os.path.join(tree.path, 'README'), FileExists())
 
-The ``FileTree`` fixture can also be used as a context manager::
+The ``FileTree`` fixture can also be used as a context manager:
+
+.. code:: python
 
     from treeshape import FileTree
 
